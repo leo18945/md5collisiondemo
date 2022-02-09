@@ -34,9 +34,11 @@ public class MD5CollisionDemo {
     public static void md5(String m1, String m2) {
         try {
             MessageDigest digest = MessageDigest.getInstance("MD5");
+            
             digest.update(hexToBytes(m1));
             byte[] result1 = digest.digest();
             String hex1 = bytesToHex(result1);
+            
             digest.reset();
 
             digest.update(hexToBytes(m2));
@@ -46,6 +48,7 @@ public class MD5CollisionDemo {
             System.out.println("md5(" + m1 + ") = " + hex1);
             System.out.println("md5(" + m2 + ") = " + hex2);
             System.out.println("two md5 hashes are equal? " + hex1.equalsIgnoreCase(hex2));
+            
         } catch (Exception e) {
             e.printStackTrace();
         }
