@@ -17,3 +17,14 @@ md5(0e306561559aa787d00bc6f70bbdfe3404cf03659e704f8534c00ffb659c4c8740cc942feb2d
 md5(0e306561559aa787d00bc6f70bbdfe3404cf03659e744f8534c00ffb659c4c8740cc942feb2da115a3f415dcbb8607497386656d7d1f34a42059d78f5a8dd1ef) = CEE9A457E790CF20D4BDAA6D69F01E41
 
 two md5 hashes are equal? true
+
+ref:
+https://crypto.stackexchange.com/questions/1434/are-there-two-known-strings-which-have-the-same-md5-hash-value
+
+https://emaragkos.gr/infosec-adventures/create-your-own-md5-collisions/
+
+https://second.wiki/wiki/implementacic3b3n_de_colisic3b3n_en_md5
+
+https://tanishq.page/blogfiles/seedlabs/MD5-collision-crypto.html
+
+https://medium.com/@shrutiavinodh/md5-collision-attack-lab-a-cryptographic-security-seedlab-448329a57f9b
